@@ -62,7 +62,7 @@ object Build : BuildType({
                 value("value2")
             ))
             param("Symbols256", listOf(
-                value("256dsdssddssymbolslwehkfhkhferkjfhrehfrekhfkreherkfhklerfhkewrhfgjlkehkerhkerhkferhkferhkfhrekfhrekfhreklhfkerfhkerhfkerhfkhjgjlljljhgjgjgjgjhghjhgjhgjhgjgjkgjhgjhgjgjgjgjghjgjgjgjhgjgjgjgjbjhbbjbjhbjgjhbgjkhgjhgkjgjkghjgjhgjkhljhlkjhjlkhjlhljh"),
+                value("256dsdssddssymbolslwehkfhkhferkjfhrehfrekhfkreherkfhklerfhkewrhfgjlkehkerhkerhkferhkferhkfhrekfhrekfhreklhfkerfhkerhfkerhfkhjgjlljljhgjgjgjgjhghjhgjhgjhgjgjkgjhgjhgjgjgjgjghjgjgjgjhgjgjgjgjbjhbbjbjhbjgjhbgjkhgjhgkjgjkghjgjhgjkhljhlkjhjlkhjlhljhkkk"),
                 value("Value2")
             ))
         }
