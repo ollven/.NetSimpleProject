@@ -1,6 +1,7 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
 import jetbrains.buildServer.configs.kotlin.buildSteps.dotnetBuild
+import jetbrains.buildServer.configs.kotlin.matrix
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 
 /*
@@ -54,6 +55,16 @@ object Build : BuildType({
 
     features {
         perfmon {
+        }
+        matrix {
+            param("parameterOne", listOf(
+                value("value1"),
+                value("value2")
+            ))
+            param("Symbols256", listOf(
+                value("256dsdssddssymbolslwehkfhkhferkjfhrehfrekhfkreherkfhklerfhkewrhfgjlkehkerhkerhkferhkferhkfhrekfhrekfhreklhfkerfhkerhfkerhfkhjgjlljljhgjgjgjgjhghjhgjhgjhgjgjkgjhgjhgjgjgjgjghjgjgjgjhgjgjgjgjbjhbbjbjhbjgjhbgjkhgjhgkjgjkghjgjhgjkhljhlkjhjlkhjlhljh"),
+                value("Value2")
+            ))
         }
     }
 })
